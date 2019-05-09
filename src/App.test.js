@@ -2,7 +2,6 @@ import App from './App';
 import { shallow} from 'enzyme';
 import {findByTestAttr,testStore} from '../Utils';
 import React from 'react';
-import { italic } from 'ansi-colors';
 
 const setUp = (initialState ={}) => {
     const store = testStore(initialState);
