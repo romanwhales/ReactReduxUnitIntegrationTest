@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss';
 import Logo from '../../assets/graphics/osaze_beach_hangout.jpg';
-import PropTypes from 'prop-types';
+
 import Headline from '../headline';
 
 const Header = props => {
@@ -16,9 +16,5 @@ const Header = props => {
     )
 }
 
-Headline.propTypes = {
-    header: PropTypes.string,
-    desc: PropTypes.string
-}
 
 export default Header;

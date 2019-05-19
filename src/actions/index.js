@@ -9,4 +9,7 @@ export const fetchPosts = () => async (dispatch) => {
                 payload: res.data
             })
         })
+        .catch(err => {
+            console.log(err);
+        })
 }
